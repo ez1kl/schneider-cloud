@@ -13,7 +13,7 @@ provider "aws" {
 
 # Bucket S3 qui héberge le site web statique
 resource "aws_s3_bucket" "site" {
-  bucket = "schneider-ev-monitor"
+  bucket = "schneider-ev-monitor-demo"
 }
 
 # Désactive le blocage public pour rendre le site accessible
