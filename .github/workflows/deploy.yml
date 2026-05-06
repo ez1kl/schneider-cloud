@@ -22,7 +22,7 @@ jobs:
 
       - name: Déploie le site sur S3
         run: |
-          aws s3 sync . s3://schneider-ev-monitor \
+          aws s3 sync . s3://schneider-ev-monitor-demo \
             --exclude "*" \
             --include "index.html" \
             --delete
